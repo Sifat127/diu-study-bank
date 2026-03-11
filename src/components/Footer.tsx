@@ -88,7 +88,10 @@ export default function Footer() {
           {/* Developer credit */}
           <div className="flex items-center gap-3">
             <span className="text-xs">
-              Built by <span className="font-medium text-foreground/80">A.S. Sifat Ahmed</span>
+              Built by{" "}
+              <strong className="inline-flex items-center whitespace-nowrap rounded-full bg-primary px-2.5 py-0.5 text-[11px] font-semibold tracking-wide text-primary-foreground shadow-sm">
+                A.S. Sifat Ahmed
+              </strong>
             </span>
             <div className="flex items-center gap-1.5">
               {socialLinks.map((link) => (
